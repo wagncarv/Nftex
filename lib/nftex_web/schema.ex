@@ -8,6 +8,6 @@ defmodule NftexWeb.Schema do
   end
 
   mutation do
-    import_fields :root_mutation
+    import_fields(:root_mutation)
   end
 end
